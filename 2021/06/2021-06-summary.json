@@ -1,0 +1,5750 @@
+{"2021-06-08T00:00:00Z":{
+  "startTs": "2021-06-08T00:00:00Z",
+  "endTs": "2021-06-09T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-08T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "28239s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-08T07:50:39Z",
+    "timezoneOffset": 0,
+    "duration": "184s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-08T07:53:43Z",
+    "timezoneOffset": 0,
+    "duration": "57977s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-09T00:00:00Z":{
+  "startTs": "2021-06-09T00:00:00Z",
+  "endTs": "2021-06-10T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-09T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "24072s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-09T06:41:12Z",
+    "timezoneOffset": 0,
+    "duration": "1723s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-09T07:09:55Z",
+    "timezoneOffset": 0,
+    "duration": "27679s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-09T14:51:14Z",
+    "timezoneOffset": 0,
+    "duration": "4192s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-09T16:01:06Z",
+    "timezoneOffset": 0,
+    "duration": "28734s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-10T00:00:00Z":{
+  "startTs": "2021-06-10T00:00:00Z",
+  "endTs": "2021-06-11T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-10T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "25424s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-10T07:03:44Z",
+    "timezoneOffset": 0,
+    "duration": "1805s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-10T07:33:49Z",
+    "timezoneOffset": 0,
+    "duration": "59171s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-11T00:00:00Z":{
+  "startTs": "2021-06-11T00:00:00Z",
+  "endTs": "2021-06-12T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-11T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "25128s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-11T06:58:48Z",
+    "timezoneOffset": 0,
+    "duration": "1619s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-11T07:25:47Z",
+    "timezoneOffset": 0,
+    "duration": "25234s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-11T14:26:21Z",
+    "timezoneOffset": 0,
+    "duration": "4768s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-11T15:45:49Z",
+    "timezoneOffset": 0,
+    "duration": "29651s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-12T00:00:00Z":{
+  "startTs": "2021-06-12T00:00:00Z",
+  "endTs": "2021-06-13T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-12T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "372s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T00:06:12Z",
+    "timezoneOffset": 0,
+    "duration": "4500s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T01:21:12Z",
+    "timezoneOffset": 0,
+    "duration": "4208s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T02:31:20Z",
+    "timezoneOffset": 0,
+    "duration": "12896s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T06:06:16Z",
+    "timezoneOffset": 0,
+    "duration": "1497s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T06:31:13Z",
+    "timezoneOffset": 0,
+    "duration": "1353s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T06:53:46Z",
+    "timezoneOffset": 0,
+    "duration": "1196s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T07:13:42Z",
+    "timezoneOffset": 0,
+    "duration": "3439s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T08:11:01Z",
+    "timezoneOffset": 0,
+    "duration": "1736s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T08:39:57Z",
+    "timezoneOffset": 0,
+    "duration": "2330s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T09:18:47Z",
+    "timezoneOffset": 0,
+    "duration": "8095s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T11:33:42Z",
+    "timezoneOffset": 0,
+    "duration": "605s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T11:43:47Z",
+    "timezoneOffset": 0,
+    "duration": "4515s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-12T12:59:02Z",
+    "timezoneOffset": 0,
+    "duration": "126s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T13:01:08Z",
+    "timezoneOffset": 0,
+    "duration": "908s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T13:16:16Z",
+    "timezoneOffset": 0,
+    "duration": "2841s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T14:03:37Z",
+    "timezoneOffset": 0,
+    "duration": "2737s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T14:49:14Z",
+    "timezoneOffset": 0,
+    "duration": "657s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T15:00:11Z",
+    "timezoneOffset": 0,
+    "duration": "3589s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T16:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "377s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T16:06:17Z",
+    "timezoneOffset": 0,
+    "duration": "2547s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T16:48:44Z",
+    "timezoneOffset": 0,
+    "duration": "1504s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T17:13:48Z",
+    "timezoneOffset": 0,
+    "duration": "1499s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T17:38:47Z",
+    "timezoneOffset": 0,
+    "duration": "903s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-12T17:53:50Z",
+    "timezoneOffset": 0,
+    "duration": "1s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T17:53:51Z",
+    "timezoneOffset": 0,
+    "duration": "584s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T18:03:35Z",
+    "timezoneOffset": 0,
+    "duration": "705s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T18:15:20Z",
+    "timezoneOffset": 0,
+    "duration": "2007s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T18:48:47Z",
+    "timezoneOffset": 0,
+    "duration": "2100s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T19:23:47Z",
+    "timezoneOffset": 0,
+    "duration": "1050s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T19:41:17Z",
+    "timezoneOffset": 0,
+    "duration": "2538s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T20:23:35Z",
+    "timezoneOffset": 0,
+    "duration": "1209s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T20:43:44Z",
+    "timezoneOffset": 0,
+    "duration": "1499s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T21:08:43Z",
+    "timezoneOffset": 0,
+    "duration": "1354s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T21:31:17Z",
+    "timezoneOffset": 0,
+    "duration": "1347s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T21:53:44Z",
+    "timezoneOffset": 0,
+    "duration": "405s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T22:00:29Z",
+    "timezoneOffset": 0,
+    "duration": "498s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T22:08:47Z",
+    "timezoneOffset": 0,
+    "duration": "1501s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T22:33:48Z",
+    "timezoneOffset": 0,
+    "duration": "2999s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T23:23:47Z",
+    "timezoneOffset": 0,
+    "duration": "1350s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-12T23:46:17Z",
+    "timezoneOffset": 0,
+    "duration": "823s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-13T00:00:00Z":{
+  "startTs": "2021-06-13T00:00:00Z",
+  "endTs": "2021-06-14T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-13T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "43224s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-13T12:00:24Z",
+    "timezoneOffset": 0,
+    "duration": "20175s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-13T17:36:39Z",
+    "timezoneOffset": 0,
+    "duration": "23001s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-14T00:00:00Z":{
+  "startTs": "2021-06-14T00:00:00Z",
+  "endTs": "2021-06-15T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-14T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "1579s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-14T00:26:19Z",
+    "timezoneOffset": 0,
+    "duration": "1497s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-14T00:51:16Z",
+    "timezoneOffset": 0,
+    "duration": "4503s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-14T02:06:19Z",
+    "timezoneOffset": 0,
+    "duration": "23548s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-14T08:38:47Z",
+    "timezoneOffset": 0,
+    "duration": "4632s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-14T09:55:59Z",
+    "timezoneOffset": 0,
+    "duration": "2041s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-14T10:30:00Z",
+    "timezoneOffset": 0,
+    "duration": "6679s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-14T12:21:19Z",
+    "timezoneOffset": 0,
+    "duration": "1053s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-14T12:38:52Z",
+    "timezoneOffset": 0,
+    "duration": "1386s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-14T13:01:58Z",
+    "timezoneOffset": 0,
+    "duration": "3483s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-14T14:00:01Z",
+    "timezoneOffset": 0,
+    "duration": "16100s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-14T18:28:21Z",
+    "timezoneOffset": 0,
+    "duration": "19899s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-15T00:00:00Z":{
+  "startTs": "2021-06-15T00:00:00Z",
+  "endTs": "2021-06-16T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-15T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "39662s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-15T11:01:02Z",
+    "timezoneOffset": 0,
+    "duration": "107s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-15T11:02:49Z",
+    "timezoneOffset": 0,
+    "duration": "7404s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-15T13:06:13Z",
+    "timezoneOffset": 0,
+    "duration": "1663s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-15T13:33:56Z",
+    "timezoneOffset": 0,
+    "duration": "37564s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-16T00:00:00Z":{
+  "startTs": "2021-06-16T00:00:00Z",
+  "endTs": "2021-06-17T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-16T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "25742s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-16T07:09:02Z",
+    "timezoneOffset": 0,
+    "duration": "10911s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-16T10:10:53Z",
+    "timezoneOffset": 0,
+    "duration": "49747s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-17T00:00:00Z":{
+  "startTs": "2021-06-17T00:00:00Z",
+  "endTs": "2021-06-18T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-17T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "23791s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-17T06:36:31Z",
+    "timezoneOffset": 0,
+    "duration": "9395s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-17T09:13:06Z",
+    "timezoneOffset": 0,
+    "duration": "11309s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-17T12:21:35Z",
+    "timezoneOffset": 0,
+    "duration": "3048s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-17T13:12:23Z",
+    "timezoneOffset": 0,
+    "duration": "38857s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-18T00:00:00Z":{
+  "startTs": "2021-06-18T00:00:00Z",
+  "endTs": "2021-06-19T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-18T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "24241s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-18T06:44:01Z",
+    "timezoneOffset": 0,
+    "duration": "1749s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-18T07:13:10Z",
+    "timezoneOffset": 0,
+    "duration": "17756s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-18T12:09:06Z",
+    "timezoneOffset": 0,
+    "duration": "383s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-18T12:15:29Z",
+    "timezoneOffset": 0,
+    "duration": "42271s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-19T00:00:00Z":{
+  "startTs": "2021-06-19T00:00:00Z",
+  "endTs": "2021-06-20T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-19T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "389s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-19T00:06:29Z",
+    "timezoneOffset": 0,
+    "duration": "2853s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-19T00:54:02Z",
+    "timezoneOffset": 0,
+    "duration": "13049s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-19T04:31:31Z",
+    "timezoneOffset": 0,
+    "duration": "23101s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-19T10:56:32Z",
+    "timezoneOffset": 0,
+    "duration": "7880s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-19T13:07:52Z",
+    "timezoneOffset": 0,
+    "duration": "5093s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-19T14:32:45Z",
+    "timezoneOffset": 0,
+    "duration": "1s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 17.933,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LOCAL",
+      "touchedWhen": "2021-06-19T14:32:45Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "ADHOC",
+      "touchedUserId": "",
+      "scheduledStart": 0,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-19T14:32:46Z",
+    "timezoneOffset": 0,
+    "duration": "1s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 17.629,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LOCAL",
+      "touchedWhen": "2021-06-19T14:32:46Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "ADHOC",
+      "touchedUserId": "",
+      "scheduledStart": 0,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-19T14:32:47Z",
+    "timezoneOffset": 0,
+    "duration": "406s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 17.873,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LOCAL",
+      "touchedWhen": "2021-06-19T14:32:46Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "ADHOC",
+      "touchedUserId": "",
+      "scheduledStart": 0,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-19T14:39:33Z",
+    "timezoneOffset": 0,
+    "duration": "1921s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 17.155,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LOCAL",
+      "touchedWhen": "2021-06-19T14:32:47Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "ADHOC",
+      "touchedUserId": "",
+      "scheduledStart": 0,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-19T15:11:34Z",
+    "timezoneOffset": 0,
+    "duration": "2906s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 17.155,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LOCAL",
+      "touchedWhen": "2021-06-19T14:32:47Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "ADHOC",
+      "touchedUserId": "",
+      "scheduledStart": 0,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-19T16:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "11s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-19T16:00:11Z",
+    "timezoneOffset": 0,
+    "duration": "982s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-19T16:16:33Z",
+    "timezoneOffset": 0,
+    "duration": "8971s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-19T18:46:04Z",
+    "timezoneOffset": 0,
+    "duration": "18836s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-20T00:00:00Z":{
+  "startTs": "2021-06-20T00:00:00Z",
+  "endTs": "2021-06-21T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-20T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "39242s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-20T10:54:02Z",
+    "timezoneOffset": 0,
+    "duration": "31337s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-20T19:36:19Z",
+    "timezoneOffset": 0,
+    "duration": "15821s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-21T00:00:00Z":{
+  "startTs": "2021-06-21T00:00:00Z",
+  "endTs": "2021-06-22T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-21T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "93s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-21T00:01:33Z",
+    "timezoneOffset": 0,
+    "duration": "2848s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-21T00:49:01Z",
+    "timezoneOffset": 0,
+    "duration": "23376s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-21T07:18:37Z",
+    "timezoneOffset": 0,
+    "duration": "1536s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-21T07:44:13Z",
+    "timezoneOffset": 0,
+    "duration": "4939s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-21T09:06:32Z",
+    "timezoneOffset": 0,
+    "duration": "2624s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-21T09:50:16Z",
+    "timezoneOffset": 0,
+    "duration": "2384s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-21T10:30:00Z",
+    "timezoneOffset": 0,
+    "duration": "148s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-21T10:32:28Z",
+    "timezoneOffset": 0,
+    "duration": "8047s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-21T12:46:35Z",
+    "timezoneOffset": 0,
+    "duration": "234s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-21T12:50:29Z",
+    "timezoneOffset": 0,
+    "duration": "24084s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-21T19:31:53Z",
+    "timezoneOffset": 0,
+    "duration": "16087s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-22T00:00:00Z":{
+  "startTs": "2021-06-22T00:00:00Z",
+  "endTs": "2021-06-23T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-22T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "25145s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-22T06:59:05Z",
+    "timezoneOffset": 0,
+    "duration": "2029s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-22T07:32:54Z",
+    "timezoneOffset": 0,
+    "duration": "4120s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-22T08:41:34Z",
+    "timezoneOffset": 0,
+    "duration": "4197s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-22T09:51:31Z",
+    "timezoneOffset": 0,
+    "duration": "10207s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-22T12:41:38Z",
+    "timezoneOffset": 0,
+    "duration": "1071s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-22T12:59:29Z",
+    "timezoneOffset": 0,
+    "duration": "39631s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-23T00:00:00Z":{
+  "startTs": "2021-06-23T00:00:00Z",
+  "endTs": "2021-06-24T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-23T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "29043s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-23T08:04:03Z",
+    "timezoneOffset": 0,
+    "duration": "24209s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-23T14:47:32Z",
+    "timezoneOffset": 0,
+    "duration": "33148s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-24T00:00:00Z":{
+  "startTs": "2021-06-24T00:00:00Z",
+  "endTs": "2021-06-25T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-24T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "33096s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-24T09:11:36Z",
+    "timezoneOffset": 0,
+    "duration": "394s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-24T09:18:10Z",
+    "timezoneOffset": 0,
+    "duration": "18956s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-24T14:34:06Z",
+    "timezoneOffset": 0,
+    "duration": "91s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-24T14:35:37Z",
+    "timezoneOffset": 0,
+    "duration": "11609s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-24T17:49:06Z",
+    "timezoneOffset": 0,
+    "duration": "1869s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-24T18:20:15Z",
+    "timezoneOffset": 0,
+    "duration": "20385s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-25T00:00:00Z":{
+  "startTs": "2021-06-25T00:00:00Z",
+  "endTs": "2021-06-26T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-25T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "31299s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-25T08:41:39Z",
+    "timezoneOffset": 0,
+    "duration": "2277s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-25T09:19:36Z",
+    "timezoneOffset": 0,
+    "duration": "4922s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-25T10:41:38Z",
+    "timezoneOffset": 0,
+    "duration": "3757s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-25T11:44:15Z",
+    "timezoneOffset": 0,
+    "duration": "19273s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-25T17:05:28Z",
+    "timezoneOffset": 0,
+    "duration": "6092s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-25T18:47:00Z",
+    "timezoneOffset": 0,
+    "duration": "18780s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-26T00:00:00Z":{
+  "startTs": "2021-06-26T00:00:00Z",
+  "endTs": "2021-06-27T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-26T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "1732s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T00:28:52Z",
+    "timezoneOffset": 0,
+    "duration": "20269s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T06:06:41Z",
+    "timezoneOffset": 0,
+    "duration": "905s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-26T06:21:46Z",
+    "timezoneOffset": 0,
+    "duration": "13s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T06:21:59Z",
+    "timezoneOffset": 0,
+    "duration": "1482s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T06:46:41Z",
+    "timezoneOffset": 0,
+    "duration": "1350s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T07:09:11Z",
+    "timezoneOffset": 0,
+    "duration": "1443s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T07:33:14Z",
+    "timezoneOffset": 0,
+    "duration": "1317s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T07:55:11Z",
+    "timezoneOffset": 0,
+    "duration": "1383s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T08:18:14Z",
+    "timezoneOffset": 0,
+    "duration": "1407s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T08:41:41Z",
+    "timezoneOffset": 0,
+    "duration": "1350s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T09:04:11Z",
+    "timezoneOffset": 0,
+    "duration": "1009s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T09:21:00Z",
+    "timezoneOffset": 0,
+    "duration": "996s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T09:37:36Z",
+    "timezoneOffset": 0,
+    "duration": "995s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T09:54:11Z",
+    "timezoneOffset": 0,
+    "duration": "1050s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T10:11:41Z",
+    "timezoneOffset": 0,
+    "duration": "1498s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T10:36:39Z",
+    "timezoneOffset": 0,
+    "duration": "1653s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T11:04:12Z",
+    "timezoneOffset": 0,
+    "duration": "6980s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-26T13:00:32Z",
+    "timezoneOffset": 0,
+    "duration": "10768s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T16:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "580s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T16:09:40Z",
+    "timezoneOffset": 0,
+    "duration": "782s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T16:22:42Z",
+    "timezoneOffset": 0,
+    "duration": "1933s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T16:54:55Z",
+    "timezoneOffset": 0,
+    "duration": "2421s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T17:35:16Z",
+    "timezoneOffset": 0,
+    "duration": "2480s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T18:16:36Z",
+    "timezoneOffset": 0,
+    "duration": "2551s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T18:59:07Z",
+    "timezoneOffset": 0,
+    "duration": "811s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T19:12:38Z",
+    "timezoneOffset": 0,
+    "duration": "2793s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T19:59:11Z",
+    "timezoneOffset": 0,
+    "duration": "1195s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T20:19:06Z",
+    "timezoneOffset": 0,
+    "duration": "2705s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T21:04:11Z",
+    "timezoneOffset": 0,
+    "duration": "1286s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T21:25:37Z",
+    "timezoneOffset": 0,
+    "duration": "2089s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T22:00:26Z",
+    "timezoneOffset": 0,
+    "duration": "229s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T22:04:15Z",
+    "timezoneOffset": 0,
+    "duration": "2847s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T22:51:42Z",
+    "timezoneOffset": 0,
+    "duration": "2850s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-26T23:39:12Z",
+    "timezoneOffset": 0,
+    "duration": "1248s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-27T00:00:00Z":{
+  "startTs": "2021-06-27T00:00:00Z",
+  "endTs": "2021-06-28T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-27T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "21852s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-27T06:04:12Z",
+    "timezoneOffset": 0,
+    "duration": "9905s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-27T08:49:17Z",
+    "timezoneOffset": 0,
+    "duration": "7044s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-27T10:46:41Z",
+    "timezoneOffset": 0,
+    "duration": "11473s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-27T13:57:54Z",
+    "timezoneOffset": 0,
+    "duration": "36126s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-28T00:00:00Z":{
+  "startTs": "2021-06-28T00:00:00Z",
+  "endTs": "2021-06-29T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-28T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "99s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-28T00:01:39Z",
+    "timezoneOffset": 0,
+    "duration": "24158s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-28T06:44:17Z",
+    "timezoneOffset": 0,
+    "duration": "2162s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-28T07:20:19Z",
+    "timezoneOffset": 0,
+    "duration": "4377s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-28T08:33:16Z",
+    "timezoneOffset": 0,
+    "duration": "5682s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-28T10:07:58Z",
+    "timezoneOffset": 0,
+    "duration": "1322s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 14.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-05-30T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 64800,
+      "scheduledDay": 5,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-28T10:30:00Z",
+    "timezoneOffset": 0,
+    "duration": "14353s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-28T14:29:13Z",
+    "timezoneOffset": 0,
+    "duration": "1059s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-28T14:46:52Z",
+    "timezoneOffset": 0,
+    "duration": "5987s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-28T16:26:39Z",
+    "timezoneOffset": 0,
+    "duration": "27201s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-29T00:00:00Z":{
+  "startTs": "2021-06-29T00:00:00Z",
+  "endTs": "2021-06-30T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-29T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "24648s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-29T06:50:48Z",
+    "timezoneOffset": 0,
+    "duration": "2033s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-29T07:24:41Z",
+    "timezoneOffset": 0,
+    "duration": "6121s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-29T09:06:42Z",
+    "timezoneOffset": 0,
+    "duration": "217s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-29T09:10:19Z",
+    "timezoneOffset": 0,
+    "duration": "14487s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-29T13:11:46Z",
+    "timezoneOffset": 0,
+    "duration": "4472s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-29T14:26:18Z",
+    "timezoneOffset": 0,
+    "duration": "11964s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-29T17:45:42Z",
+    "timezoneOffset": 0,
+    "duration": "1795s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-29T18:15:37Z",
+    "timezoneOffset": 0,
+    "duration": "20663s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+},"2021-06-30T00:00:00Z":{
+  "startTs": "2021-06-30T00:00:00Z",
+  "endTs": "2021-07-01T00:00:00Z",
+  "energyWinner": "UNKNOWN",
+  "energyLeaf": false,
+  "totalHeatingSeconds": 0,
+  "totalCoolingSeconds": 0,
+  "totalFanCoolingSeconds": 0,
+  "totalHumidifierSeconds": 0,
+  "totalDehumidifierSeconds": 0,
+  "recentAverageUsedSeconds": 0,
+  "secondsUsageOverAverage": 0,
+  "systemCapabilities": {
+    "hasStage1Cool": false,
+    "hasStage2Cool": false,
+    "hasStage3Cool": false,
+    "hasStage1Heat": true,
+    "hasStage2Heat": false,
+    "hasStage3Heat": false,
+    "hasStage1AlternateHeat": false,
+    "hasStage2AlternateHeat": false,
+    "hasHumidifier": false,
+    "hasDehumidifier": false,
+    "hasDualFuel": false,
+    "hasAuxHeat": false,
+    "hasEmergencyHeat": false,
+    "hasAirFilter": false,
+    "hasFossilFuel": false,
+    "hasHotWaterControl": false,
+    "hasHeatPump": false,
+    "hasFan": false
+  },
+  "cycles": [],
+  "cyclesIncomplete": false,
+  "events": [{
+    "startTs": "2021-06-30T00:00:00Z",
+    "timezoneOffset": 0,
+    "duration": "18699s",
+    "continuation": true,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_UNKNOWN",
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-30T05:11:39Z",
+    "timezoneOffset": 0,
+    "duration": "5802s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-30T06:48:21Z",
+    "timezoneOffset": 0,
+    "duration": "4100s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }, {
+    "startTs": "2021-06-30T07:56:41Z",
+    "timezoneOffset": 0,
+    "duration": "24542s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_AUTOAWAY",
+    "ecoAutoAway": {
+      "targets": {
+        "heatingTarget": 9.444,
+        "coolingTarget": 0.0
+      },
+      "source": {
+        "touchedBy": "REMOTE",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      }
+    }
+  }, {
+    "startTs": "2021-06-30T14:45:43Z",
+    "timezoneOffset": 0,
+    "duration": "33257s",
+    "continuation": false,
+    "eventType": "EVENT_TYPE_HEAT",
+    "setPoint": {
+      "setPointType": "SET_POINT_TYPE_HEAT",
+      "scheduleType": "SET_POINT_SCHEDULE_TYPE_HEAT",
+      "preconditioning": false,
+      "targets": {
+        "heatingTarget": 18.0,
+        "coolingTarget": 0.0
+      },
+      "touchedBy": "LEARNING",
+      "touchedWhen": "2021-06-02T22:00:24Z",
+      "touchedTimezoneOffset": 7200,
+      "touchedWhere": "SCHEDULE",
+      "touchedUserId": "",
+      "scheduledStart": 45000,
+      "scheduledDay": 0,
+      "previousType": "EVENT_TYPE_AUTOAWAY",
+      "source": {
+        "touchedBy": "LEARNING",
+        "touchedWhere": "UNKNOWN_WHERE",
+        "userId": ""
+      },
+      "emergencyHeatActive": false
+    }
+  }],
+  "eventsIncomplete": false,
+  "rates": []
+}}
